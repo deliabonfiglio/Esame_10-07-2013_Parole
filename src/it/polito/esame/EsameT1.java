@@ -14,7 +14,6 @@ public class EsameT1 extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws IOException {
-		
 		FXMLLoader loader = new FXMLLoader( this.getClass().getResource("gui/paroleT1.fxml")) ;
 		loader.load() ;
 		ParoleController controller = loader.getController();
